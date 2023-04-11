@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+/* navbar customization */
+.customise-nav a:hover,
+.customise-nav-icon a:hover {
+    color: #FCD346 !important;
+}
+/* service section customization */
+.customise-service-card {
+    transition: 0.3s ease-in-out;
+}
+.customise-service-card:hover {
+   background-color: black;
+   transform: translateY(-5%);
+}
+@media (max-width: 500px) {
+     .customise-service-font {
+        font-size: 8px;
+     }
+}
+/* carousel customization */
+.customise-carousel-img img {
+    width: 230px;
+}
+@media (max-width: 768px) {
+    .customise-carousel-img img {
+        width: 100px;
+    }
+}
+/* contact form customization */
+.customise-form input,
+.customise-form textarea {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid white !important;
+}
+.customise-form input:focus,
+.customise-form textarea:focus {
+    outline: none !important;
+    box-shadow: 0px 0px 0px 0px !important;
+}
+.form-floating:not(.form-control:disabled)::before {
+    background-color: black !important;
+}
+.customise-form button,
+.customise-form button:hover {
+    border: 2px solid white;
+}
+/* to top button */
+.to-top {
+    position: fixed;
+    right: 28px;
+    bottom: 12px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+}
+.to-top.active {
+    bottom: 28px;
+    opacity: 1;
+    pointer-events: auto;
+}
+/* footer customization */
+  @media (max-width:500px) {
+    .customise-footer {
+        width: 70% !important;
+    }
+  }
