@@ -4,10 +4,20 @@
     box-sizing: border-box;
     scroll-behavior: smooth !important;
 }
-/* navbar customization */
+/* header & navbar customization */
 .customise-nav a:hover,
 .customise-nav-icon a:hover {
     color: #FCD346 !important;
+}
+@media (max-width: 650px) {
+    .customise-header-text span,
+    .customise-header-text div,
+    .customise-header-text button {
+        font-size: 13px !important;
+    }
+    .customise-header-text p {
+        font-size: 8px;
+    }
 }
 /* service section customization */
 .customise-service-card {
@@ -18,9 +28,19 @@
    transform: translateY(-5%);
 }
 @media (max-width: 500px) {
-     .customise-service-font {
+     .customise-service-text {
         font-size: 7px;
      }
+}
+/* why choose section customization */
+@media (max-width: 768px) {
+    .customise-choose-img img {
+        height: 90% !important;
+    }
+    .customise-choose-text,
+    .customise-choose-text h6 {
+        font-size: 8px !important;
+    }
 }
 /* carousel customization */
 .customise-carousel-img img {
